@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eula Library | Reviews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="Page2.html">📚 Fictional World</a>
+        <nav>
+            <a href="page 1.html">Home</a>
+            <a href="page2.html">Books</a>
+            <a href="page7.html">👤 Account</a>
+            <a href="page6.html">About us</a>
+            <a href="page3.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Readers' corner</p>
+            <h1>Share Your Review</h1>
+            <p>Tell other readers what you think about a book or your shopping experience.</p>
+        </section>
+
+        <section class="review-panel">
+            <form action="thankyou.html" method="get" class="review-form">
+                <label for="reviewer-name">Your name</label>
+                <input type="text" id="reviewer-name" name="name" placeholder="Enter your name" required>
+
+                <label for="book-choice">Book or service</label>
+                <select id="book-choice" name="book" required>
+                    <option value="">Choose one</option>
+                    <option>White Lies Beneath</option>
+                    <option>Kissing the Dusk</option>
+                    <option>Sand of a time</option>
+                    <option>Blown by the Wind</option>
+                    <option>Hardbound order / customer service</option>
+                </select>
+
+                <label>How many stars would you give us?</label>
+                <div class="rating-options">
+                    <label><input type="radio" name="rating" value="1" required> <span>★</span> 1</label>
+                    <label><input type="radio" name="rating" value="2"> <span>★★</span> 2</label>
+                    <label><input type="radio" name="rating" value="3"> <span>★★★</span> 3</label>
+                    <label><input type="radio" name="rating" value="4"> <span>★★★★</span> 4</label>
+                    <label><input type="radio" name="rating" value="5"> <span>★★★★★</span> 5</label>
+                </div>
+
+                <label for="review-message">Your review</label>
+                <textarea id="review-message" name="review" rows="5" placeholder="Write your thoughts here..." required></textarea>
+                <button class="button full-button" type="submit">Submit Review</button>
+        </section>
+    </main>
+    <section class="ratings-section">
+
+    <h2>Customer Ratings & Reviews</h2>
+
+    <div class="rating-summary">
+        <h3>5.0 / 5.0</h3>
+        <div class="stars">★★★★★</div>
+        <p>Sample Rating</p>
+    </div>
+
+    <div class="review-card">
+        <h1>Philip</h1> 
+        <div class="stars">★★★★★</div>
+        <p>
+            "Ang ganda ng website! Madaling maghanap
+            ng stories at perfect siya para sa mga
+            mahilig magbasa. Highly recommended!"
+        </p>
+    </div>
+
+    <div class="review-card">
+        <h1>Hapi</h1>
+        <div class="stars">★★★★★</div>
+        <p>
+            "I love the concept! Pwede kang magbasa
+            online at umorder ng physical books.
+            Very convenient para sa book lovers!"
+        </p>
+    </div>
+
+    <div class="review-card">
+        <h1>Jennevie</h1> 
+        <div class="stars">★★★★★</div>
+        <p>
+            "Super nice ng design ng website,
+            especially yung vintage theme.
+            Sana mas marami pang stories in the future!"
+        </p>
+    </div>
+    <footer>
+        <strong>📚 Eula Library</strong>
+        <p>Thank you for being part of our reading community.</p>
+    </footer>
+</body>
+</html>
